@@ -1,7 +1,7 @@
 require 'pry'
 def prime?(integer) 
-  if integer.integer? == false
-   # return false 
+  if integer == 0||1||2
+    return false 
   end
   
  nums=(2..integer)
