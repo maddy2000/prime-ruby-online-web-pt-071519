@@ -16,5 +16,3 @@ def prime?(integer)
   end
    true
 end
-#if integer == 0||1||2 
- # return false
