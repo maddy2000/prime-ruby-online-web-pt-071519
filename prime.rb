@@ -2,9 +2,7 @@ require 'pry'
 def prime?(integer) 
   if integer == 0||1||2
     return false
-  else
-    true
-  end
+
   
  nums=(2..integer)
   nums.each do |number|
