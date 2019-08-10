@@ -1,6 +1,6 @@
 require 'pry'
 def prime?(integer) 
-  if integer [<2] .include? (integer)
+  if integer [<2].include?(integer)
     return true
 end
   
