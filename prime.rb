@@ -1,12 +1,13 @@
 require 'pry'
 def prime?(integer) 
+  binding.pry
   if integer == 0||1||2
     return true
   end
   
  nums=(2..integer)
   nums.each do |number|
-  # number cant be div by another #
+  # number cant be div by another evenly #
    if integer % number== 0 
     return false 
    else 
