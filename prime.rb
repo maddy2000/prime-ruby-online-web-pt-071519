@@ -4,7 +4,7 @@ def prime?(integer)
     return false
 end
   
- nums=[2..integer)
+ nums=2..integer-1)
  binding.pry
   nums.each do |number|
   # number cant be div evenly #
