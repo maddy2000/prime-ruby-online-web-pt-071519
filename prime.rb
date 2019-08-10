@@ -8,9 +8,9 @@ end
   nums.each do |number|
   # number cant be div evenly #
    if integer % number== 0 
-    return true
+    return false
    else 
-     false
+     true
    end
     
   end
