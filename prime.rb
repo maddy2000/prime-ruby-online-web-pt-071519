@@ -1,10 +1,11 @@
 require 'pry'
 def prime?(integer) 
-  if integer == 
+  if integer < 0 || integer == 0 || integer == 1
     return false
 end
   
  nums=(2..integer)
+ binding.pry
   nums.each do |number|
   # number cant be div evenly #
    if integer % number== 0 
