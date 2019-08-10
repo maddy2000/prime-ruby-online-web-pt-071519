@@ -1,7 +1,6 @@
 require 'pry'
 def prime?(integer) 
-  binding.pry
-  if integer == 0||1||2
+  if integer == 0||-1||2
     return true
   end
   
