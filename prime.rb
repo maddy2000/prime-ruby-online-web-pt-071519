@@ -1,8 +1,8 @@
 require 'pry'
 def prime?(integer) 
-  #if integer [-2].include?(integer)
- #   return true
-#end
+  if integer == < 2 
+    return true
+end
   
  nums=(2..integer)
   nums.each do |number|
