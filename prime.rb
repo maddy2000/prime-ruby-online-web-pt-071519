@@ -10,7 +10,7 @@ end
    if integer % number== 0 
     return true
    else 
-     true
+     false
    end
     
   end
