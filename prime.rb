@@ -1,6 +1,6 @@
 require 'pry'
 def prime?(integer) 
-  if integer == -2
+  if integer == (3..integer)
     return false
 end
   
